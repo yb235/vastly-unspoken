@@ -1,0 +1,26 @@
+# --- secrets / team config: never commit ---
+config
+*.config
+.env
+.env.*
+!/config.example
+*backend-secret*.yaml
+*vss-cli-secret*.yaml
+*vss2-secret*.yaml
+kubeconfig
+*credentials*
+!*credentials*.example
+
+# --- upstream clone + vendored corpora (local reference only) ---
+vendor/
+*.mp4
+*.wav
+*.pdf
+
+# --- local scratch / run artifacts ---
+notes/local/
+tools/**/__pycache__/
+.venv/
+venv/
+*.log
+.DS_Store
