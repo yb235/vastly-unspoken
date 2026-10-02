@@ -12,6 +12,7 @@ fork it into this repo).
 | Path | What it is |
 |------|-----------|
 | `docs/stack-and-architecture.md` | The full digest: every component, every API surface, the corpus, the constraints |
+| `docs/skills-capability-map.md` | All 20 skills: what each can do, its guardrails, and what nothing can do |
 | `docs/approach.md` | How to attack the day: decision order, the one hard constraint, build/deploy sequence |
 | `docs/upstream-map.md` | File-by-file map of the starter repo (which skill answers which question) |
 | `tools/` | Our apps/clients (nothing yet) |
